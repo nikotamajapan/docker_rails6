@@ -6,7 +6,7 @@ https://qiita.com/tkmd35/items/7e42b2953f5431690d91
 #  コマンド一発で５個ファイル作る
     touch Dockerfile  docker-compose.yml  Gemfile  Gemfile.lock  entrypoint.sh 
 
-# 中身をコピる    
+# 中身をブログからパクる    
 Dockerfile
 docker-compose.yml
 Gemfile
