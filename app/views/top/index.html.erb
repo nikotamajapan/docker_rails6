@@ -9,5 +9,14 @@
 <body>
     <h1>docker と　rails6 で作るサイト</h1>
     <h2>dekita</h2>
+    <h2><%= link_to("articles#show", article_path(1))%></h2>
+    <h2><%= link_to("articles#new", new_article_path)%></h2>
+    <h2><%= link_to("users#show", user_path(1))%></h2>
+    <h2><%= link_to("users#new", new_user_path)%></h2>
+    <h2><%= link_to("sessions#new", new_session_path)%></h2>
+
+
+    
+    
 </body>
 </html>
